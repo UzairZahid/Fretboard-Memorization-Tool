@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fretboard Memorization Tool</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fretboard Memorization Tool">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Fretboard Memorization Tool</h1>
+    </header>
+
+    <main>
+        <div class="instructions">
+            How to use: Click "Generate Note" to see a random note, then find all instances of that note on the
+            fretboard and start playing on your to memorize. Good luck!
+        </div>
+
+        <div class="main-container">
+
+
+            <div class="fretboard-wrapper">
+                <!-- <div class="string-label-container"> -->
+                <div class="st-labelE">E</div>
+                <div class="st-labelA">A</div>
+                <div class="st-labelD">D</div>
+                <div class="st-labelG">G</div>
+                <div class="st-labelB">B</div>
+                <div class="st-labele">E</div>
+                <!-- </div> -->
+
+                <div class="fretboard">
+                    <!-- Strings -->
+                    <div class="string6"></div>
+                    <div class="string5"></div>
+                    <div class="string4"></div>
+                    <div class="string3"></div>
+                    <div class="string2"></div>
+                    <div class="string1"></div>
+
+                    <!-- String 6 Notes (Low E) -->
+                    <div class="note6-1">F</div>
+                    <div class="note6-2">F#</div>
+                    <div class="note6-3">G</div>
+                    <div class="note6-4">G#</div>
+                    <div class="note6-5">A</div>
+                    <div class="note6-6">A#</div>
+                    <div class="note6-7">B</div>
+                    <div class="note6-8">C</div>
+                    <div class="note6-9">C#</div>
+                    <div class="note6-10">D</div>
+                    <div class="note6-11">D#</div>
+                    <div class="note6-12">E</div>
+
+                    <!-- String 5 Notes (A) -->
+                    <div class="note5-1">C</div>
+                    <div class="note5-2">C#</div>
+                    <div class="note5-3">D</div>
+                    <div class="note5-4">D#</div>
+                    <div class="note5-5">E</div>
+                    <div class="note5-6">F</div>
+                    <div class="note5-7">F#</div>
+                    <div class="note5-8">G</div>
+                    <div class="note5-9">G#</div>
+                    <div class="note5-10">A</div>
+                    <div class="note5-11">A#</div>
+                    <div class="note5-12">B</div>
+
+                    <!-- String 4 Notes (D) -->
+                    <div class="note4-1">G#</div>
+                    <div class="note4-2">A</div>
+                    <div class="note4-3">A#</div>
+                    <div class="note4-4">B</div>
+                    <div class="note4-5">C</div>
+                    <div class="note4-6">C#</div>
+                    <div class="note4-7">D</div>
+                    <div class="note4-8">D#</div>
+                    <div class="note4-9">E</div>
+                    <div class="note4-10">F</div>
+                    <div class="note4-11">F#</div>
+                    <div class="note4-12">G</div>
+
+                    <!-- String 3 Notes (G) -->
+                    <div class="note3-1">D</div>
+                    <div class="note3-2">D#</div>
+                    <div class="note3-3">E</div>
+                    <div class="note3-4">F</div>
+                    <div class="note3-5">F#</div>
+                    <div class="note3-6">G</div>
+                    <div class="note3-7">G#</div>
+                    <div class="note3-8">A</div>
+                    <div class="note3-9">A#</div>
+                    <div class="note3-10">B</div>
+                    <div class="note3-11">C</div>
+                    <div class="note3-12">C#</div>
+
+                    <!-- String 2 Notes (B) -->
+                    <div class="note2-1">A#</div>
+                    <div class="note2-2">B</div>
+                    <div class="note2-3">C</div>
+                    <div class="note2-4">C#</div>
+                    <div class="note2-5">D</div>
+                    <div class="note2-6">D#</div>
+                    <div class="note2-7">E</div>
+                    <div class="note2-8">F</div>
+                    <div class="note2-9">F#</div>
+                    <div class="note2-10">G</div>
+                    <div class="note2-11">G#</div>
+                    <div class="note2-12">A</div>
+
+                    <!-- String 1 Notes (High E) -->
+                    <div class="note1-1">F</div>
+                    <div class="note1-2">F#</div>
+                    <div class="note1-3">G</div>
+                    <div class="note1-4">G#</div>
+                    <div class="note1-5">A</div>
+                    <div class="note1-6">A#</div>
+                    <div class="note1-7">B</div>
+                    <div class="note1-8">C</div>
+                    <div class="note1-9">C#</div>
+                    <div class="note1-10">D</div>
+                    <div class="note1-11">D#</div>
+                    <div class="note1-12">E</div>
+
+                    <!-- Fret Markers -->
+                    <div class="fret-marker1"></div>
+                    <div class="fret-marker2"></div>
+                    <div class="fret-marker3"></div>
+                    <div class="fret-marker4"></div>
+                    <div class="fret-marker5"></div>
+                    <div class="fret-marker6"></div>
+                    <div class="fret-marker7"></div>
+                    <div class="fret-marker8"></div>
+                    <div class="fret-marker9"></div>
+                    <div class="fret-marker10"></div>
+                    <div class="fret-marker11"></div>
+                    <div class="fret-marker12"></div>
+                    <div class="fret-marker13"></div>
+                </div>
+
+                <div class="fret-labels-container">
+                    <div class="fret-labels1">3</div>
+                    <div class="fret-labels2">5</div>
+                    <div class="fret-labels3">7</div>
+                    <div class="fret-labels4">9</div>
+                    <div class="fret-labels5">12</div>
+                </div>
+            </div>
+
+
+            <div class="left-panel">
+                <div id="generated-note"></div>
+                <button onclick="generateAndShowNote()">Generate Note</button>
+                <button onclick="hideAllNotes()">Hide Notes</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Master your fretboard, one note at a time!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
